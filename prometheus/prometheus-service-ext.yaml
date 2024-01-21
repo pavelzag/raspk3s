@@ -6,7 +6,6 @@ metadata:
 spec:
   selector:
     prometheus: prometheus-persistant
-    node.kubernetes.io/instance-type: k3s
   type: LoadBalancer
   ports:
     - name: web

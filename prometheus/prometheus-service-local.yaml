@@ -10,5 +10,4 @@ spec:
     targetPort: web
   selector:
     prometheus: prometheus-persistant
-    node.kubernetes.io/instance-type: k3s
   sessionAffinity: ClientIP
