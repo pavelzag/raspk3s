@@ -11,4 +11,4 @@ spec:
       nodePort: 30090
       protocol: TCP
   selector:
-    app: prometheus
+    app: prometheus-persistant
